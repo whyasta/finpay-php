@@ -1,0 +1,31 @@
+{
+    "name": "whyasta/finpay-php",
+    "description": "Finpay PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+	    {
+	      "name": "Wahyu Asta",
+	      "email": "wahyu.ashta@gmail.com"
+	    }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Finpay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Finpay\\":[
+                "tests/"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "11.5.x-dev"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "8.0.x-dev"
+    }
+}
